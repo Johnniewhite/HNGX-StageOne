@@ -9,9 +9,9 @@ dayOfWeekElement.innerHTML = currentDay;
 
 
 
-const hours = today.getHours();
-const minutes = today.getMinutes();
-const seconds = today.getSeconds();
+const hours = today.getUTCHours();
+const minutes = today.getUTCMinutes();
+const seconds = today.getUTCSeconds();
 
 const currentTime = `${hours}:${minutes}:${seconds}`;
 
