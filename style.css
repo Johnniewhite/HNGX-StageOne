@@ -1,0 +1,28 @@
+.generalContainer {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 50%;
+    margin: auto;    
+    text-align: center;
+    font-family:  monospace ;
+} 
+
+.profileImage {
+    max-width: 50%;
+    padding: 3px;
+    border: solid;
+    border-color: black;
+    border-radius: 100%;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2.5em;
+
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 16px;
+}
